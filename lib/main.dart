@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:skygoal_tech_internshala/home.dart';
+import 'package:skygoal_tech_internshala/screens/main_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,11 +11,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Skygoal_Tech',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      home: const MainScreen(),
     );
   }
 }
